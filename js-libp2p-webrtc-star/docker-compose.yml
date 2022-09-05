@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  webrtc_star:
+    build: .
+    container_name: webrtc_star
+    ports:
+      - "9090:9090"
